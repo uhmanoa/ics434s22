@@ -20,10 +20,10 @@ This course is intended for undergraduates in various disciplines who have knowl
 
 ICS 434 is structured as a sequential series of [modules](/modules), each taking approximately a week to complete. Each module has the following structure:
 
-  * [Learning outcomes](/ICS434-Sp2022/outcomes), describing the major goals for the module.
-  * [Readings and other online resources](/ICS434-Sp2022/readings), providing background and supplementary material.
-  * [Experiential Learning Activities](/ICS434-Sp2022/experiences) that provide structured, step-by-step Jupyter Notbooks for acquiring mastery of the material.
-  * [Assessments](/ICS434-Sp2022/assessments), which help you determine if you have acquired mastery of the material.
+  * [Learning outcomes](outcomes), describing the major goals for the module.
+  * [Readings and other online resources](readings), providing background and supplementary material.
+  * [Experiential Learning Activities](experiences) that provide structured, step-by-step Jupyter Notbooks for acquiring mastery of the material.
+  * [Assessments](assessments), which help you determine if you have acquired mastery of the material. (This site does not yet include any assessments.)
 
 ## About the instructor
 

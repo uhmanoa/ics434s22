@@ -3,7 +3,7 @@ title: "Pydata book: chapter 8"
 morea_id: reading-chapter-8
 morea_type: reading
 published: True
-morea_summary: " Reading Chapter 8 of the pydata book"
+morea_summary: "Important material concernng data visualization"
 morea_sort_ordeer: 10
 morea_end_date: "2022-01-24"
 morea_labels: 

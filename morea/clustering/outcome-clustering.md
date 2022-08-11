@@ -1,9 +1,9 @@
 ---
-title: "Clustering"
+title: "You understand basic principles of clustering"
 published: true
 morea_id: outcome-clustering
 morea_type: outcome
-morea_sort_order: 1
+morea_sort_order: 80
 ---
 
   * You understand the process of clustering and its objectives

@@ -14,11 +14,11 @@ morea_experiences:
   - experience-hypothesis-testing
 morea_assessments:
 morea_type: module
-morea_icon_url: /morea/images/introduction.jpg
+morea_icon_url: /morea/hypothesis_testing/hypothesis-testing.jpg
 morea_start_date: "2022-02-23"
 morea_end_date: "2022-03-02"
-morea_labels: tests
+morea_labels: 
 morea_sort_order: 60
 ---
 
-Introduction to parametric and non-parametric hypothesis testing tests techniques.
+Parametric and non-parametric hypothesis testing techniques.

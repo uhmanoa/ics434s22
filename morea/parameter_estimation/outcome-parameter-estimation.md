@@ -1,9 +1,9 @@
 ---
-title: "Parameter Estimation"
+title: "You understand basic principles of parameter estimation"
 published: true
 morea_id: outcome-parameter-estimation
 morea_type: outcome
-morea_sort_order: 1
+morea_sort_order: 70
 ---
 
 

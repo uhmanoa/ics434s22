@@ -1,5 +1,5 @@
 ---
-title: "Introduction to ICS 434"
+title: "ICS 434: Introduction to Data Science"
 published: true
 morea_coming_soon: false
 morea_id: introduction
@@ -16,7 +16,7 @@ morea_experiences:
   - experience-optional-python-tutorial
 morea_assessments:
 morea_type: module
-morea_icon_url: /morea/images/introduction.jpg
+morea_icon_url: /morea/introduction/introduction.jpg
 morea_start_date: "2022-01-10"
 morea_end_date: "2022-01-16"
 morea_labels:

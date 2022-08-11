@@ -1,9 +1,9 @@
 ---
-title: "Regression"
+title: "You understand basic principles of linear regression"
 published: true
-morea_id: outcome-regression
+morea_id: outcome-linear-regression
 morea_type: outcome
-morea_sort_order: 1
+morea_sort_order: 90
 ---
 
 * Understand the conceptual and practical concepts and techniques of regression analysis

@@ -1,9 +1,9 @@
 ---
-title: "Over of Visualization Section"
+title: "You understand basic data visualization"
 published: true
 morea_id: outcome-vis-intro
 morea_type: outcome
-morea_sort_order: 1
+morea_sort_order: 30
 ---
 
 

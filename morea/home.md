@@ -5,34 +5,27 @@ morea_type: home
 published: true
 ---
 
-## Welcome to ICS 199, Fall 2021
+## Welcome to ICS 434, Spring 2022
 
-<div class="alert alert-danger" role="alert" markdown="1">
+ICS 434 is a first introduction to the most foundational tasks, packages, and analyses in data science.
 
-  <i class="fa-solid fa-circle-exclamation fa-xl"></i> **Warning: this is not a website for a real course.**
-  <hr/>
-  
-  It is actually the "demo" site for the Morea Framework. 
-
-  See the <a href="https://morea-framework.github.io">Morea Framework Project Site</a> for details.
-</div>
-
-ICS 199 is a four week overview of selected topics in computer science, including Javascript, Open Source Software, and Ethics.
+## Links to Forms
+Attendance form can be accessed [here](https://www.cognitoforms.com/MahdiBelcaid/AttendanceICS434)
 
 ## Who should take this course
 
-This course is intended for undergraduates in computer science or computer engineering who have a working knowledge of at least one programming language and who want to get a taste of important topics in the field.
+This course is intended for undergraduates in various disciplines who have knowledge of at least one scripting or programming language and who want to learn more about important topics in the field.
 
 ## Pedagogy
 
-ICS 199 is structured as a sequential series of [modules](/modules), each taking approximately a week to complete. Each module has the following structure:
+ICS 434 is structured as a sequential series of [modules](/modules), each taking approximately a week to complete. Each module has the following structure:
 
-  * [Prerequisites](/prerequisites), describing skills you should have prior to starting the module.
-  * [Learning outcomes](/outcomes), describing the major goals for the module.
-  * [Readings and other online resources](/readings), providing background material.
-  * [Experiential learning activities](/experiences), providing a structured set of challenges enabling you to acquire mastery of material.
-  * [Assessments](/assessments), which help you determine if you have acquired mastery of the material.
+  * [Learning outcomes](/ICS434-Sp2022/outcomes), describing the major goals for the module.
+  * [Readings and other online resources](/ICS434-Sp2022/readings), providing background and supplementary material.
+  * [Experiential Learning Activities](/ICS434-Sp2022/experiences) that provide structured, step-by-step Jupyter Notbooks for acquiring mastery of the material.
+  * [Assessments](/ICS434-Sp2022/assessments), which help you determine if you have acquired mastery of the material.
 
 ## About the instructor
 
-[Philip Johnson](https://philipmjohnson.org) is a Professor of Information and Computer Sciences at the University of Hawaii. His research interests include climate change, educational technology, software engineering, and serious games. He is currently an active developer of [RadGrad](https://radgrad.org), an open source software system based on Javascript, Typescript, React, and Meteor.
+[Mahdi Belcaid](https://github.com/mahdi-b) is an Assistant Professor of Information and Computer Sciences at the University of Hawaii. 
+His research interests include data science, computational biology, and educational technology. He is currently active in data science projects ranging from large displays (SAGE3) to analyzing viral data. 

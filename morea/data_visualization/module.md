@@ -2,7 +2,7 @@
 title: "Data Visualization"
 published: true
 morea_coming_soon: false
-morea_id: vis
+morea_id: data-visualization
 morea_outcomes:
   - outcome-vis-intro
 morea_readings:

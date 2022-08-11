@@ -2,7 +2,7 @@
 title: "Machine Learning"
 published: true
 morea_coming_soon: false
-morea_id: ml
+morea_id: machine-learning
 morea_outcomes:
   - outcome-ml-intro
 morea_readings:

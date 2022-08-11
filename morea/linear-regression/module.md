@@ -2,7 +2,7 @@
 title: "Linear Regression"
 published: true
 morea_coming_soon: false
-morea_id: regression
+morea_id: linear-regression
 morea_outcomes:
   - outcome-linear-regression
 morea_readings:

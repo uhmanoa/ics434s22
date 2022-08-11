@@ -2,7 +2,7 @@
 title: "Probability Models"
 published: true
 morea_coming_soon: false
-morea_id: intro_prob
+morea_id: probability-models
 morea_outcomes:
 morea_readings:
   - reading-notebooks-prob

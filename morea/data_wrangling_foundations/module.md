@@ -2,7 +2,7 @@
 title: "Data Wrangling - Foundations"
 published: true
 morea_coming_soon: false
-morea_id: pandas-1
+morea_id: data-wrangling-1
 morea_outcomes:
   - outcome-wrangling-intro
 morea_readings:

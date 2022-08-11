@@ -2,7 +2,7 @@
 title: "Parameter Estimation"
 published: true
 morea_coming_soon: false
-morea_id: param-estimation
+morea_id: parameter-estimation
 morea_outcomes:
   - outcome-parameter-estimation
 morea_readings:

@@ -6,7 +6,11 @@ morea_id: machine-learning
 morea_outcomes:
   - outcome-ml-intro
 morea_readings:
-  - reading-module-ml 
+  - reading-notebook-machine-learning-intro
+  - reading-notebook-machine-learning-logistic-regression
+  - reading-notebook-machine-learning-cross-validation
+  - reading-notebook-machine-learning-evaluating-classification
+  - reading-advanced-scikit
 morea_experiences:
 morea_assessments:
 morea_type: module

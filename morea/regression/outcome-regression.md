@@ -1,7 +1,7 @@
 ---
-title: "You understand basic principles of linear regression"
+title: "You understand basic principles of regression"
 published: true
-morea_id: outcome-linear-regression
+morea_id: outcome-regression
 morea_type: outcome
 morea_sort_order: 90
 ---

@@ -5,7 +5,8 @@ morea_coming_soon: false
 morea_id: time-series
 morea_outcomes:
 morea_readings:
-  - reading-module-time-series
+  - reading-notebook-time-series-regression
+  - reading-notebook-time-series-exponential-smoothing
 morea_experiences:
 morea_assessments:
 morea_type: module

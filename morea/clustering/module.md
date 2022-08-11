@@ -6,7 +6,8 @@ morea_id: clustering
 morea_outcomes:
   - outcome-clustering
 morea_readings:
-  - reading-clustering
+  - reading-notebook-clustering-methods
+  - reading-notebook-mixture-models
 morea_experiences:
 morea_assessments:
 morea_type: module

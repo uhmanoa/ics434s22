@@ -1,5 +1,5 @@
 ---
-title: "ICS 434: Introduction to Data Science"
+title: "ICS 434: Data Science Fundamentals"
 published: true
 morea_coming_soon: false
 morea_id: introduction

@@ -5,7 +5,7 @@ morea_type: home
 published: true
 ---
 
-## Welcome to ICS 434, Spring 2022
+## Welcome to ICS 434, Data Science Fundamentals (Spring 2022)
 
 ICS 434 is a first introduction to the most foundational tasks, packages, and analyses in data science.
 

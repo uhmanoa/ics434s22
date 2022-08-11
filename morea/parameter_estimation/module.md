@@ -6,7 +6,11 @@ morea_id: parameter-estimation
 morea_outcomes:
   - outcome-parameter-estimation
 morea_readings:
-  - reading-module-material-7
+  - reading-notebook-parameter-estimation-intro
+  - reading-notebook-poisson-distribution
+  - reading-notebook-parameter-estimation-bootstrap
+  - reading-notebook-parameter-estimation-maximum-likelihood
+  - reading-notebook-parameter-approximate-bayesian
 morea_experiences:
 morea_assessments:
 morea_type: module

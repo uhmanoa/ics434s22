@@ -9,7 +9,10 @@ morea_readings:
   - reading-t-test
   - reading-anova
   - reading-chi-square
-  - reading-module-material-6
+  - reading-notebook-hypothesis-testing-bootstrap
+  - reading-notebook-hypothesis-testing-binary
+  - reading-notebook-effect-size-intuition
+  - reading-notebook-effect-size
 morea_experiences:
   - experience-hypothesis-testing
 morea_assessments:

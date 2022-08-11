@@ -5,7 +5,12 @@ morea_coming_soon: false
 morea_id: probability-models
 morea_outcomes:
 morea_readings:
-  - reading-notebooks-prob
+  - reading-notebook-intro-probability
+  - reading-notebook-probability-distributions
+  - reading-notebook-binomial-distributions
+  - reading-notebook-gaussian-distributions
+  - reading-notebook-kernel-density-estimation
+  - reading-notebook-kernel-density-estimation-bandwidth
 morea_experiences:
   - experience-prob-distribution
 morea_assessments:

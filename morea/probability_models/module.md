@@ -17,7 +17,7 @@ morea_assessments:
 morea_type: module
 morea_icon_url: /morea/probability_models/probability-model.jpeg
 morea_start_date: "2022-02-07"
-morea_end_date: "2022-02-20"
+morea_end_date: "2022-02-21"
 morea_labels: 
 morea_sort_order: 50
 ---

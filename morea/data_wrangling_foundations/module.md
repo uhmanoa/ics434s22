@@ -17,7 +17,7 @@ morea_assessments:
 morea_type: module
 morea_icon_url: /morea/data_wrangling_foundations/data-wrangling.png
 morea_start_date: "2022-01-17"
-morea_end_date: "2022-01-23"
+morea_end_date: "2022-01-24"
 morea_labels:
 morea_sort_order: 20
 ---

@@ -14,7 +14,7 @@ morea_experiences:
 morea_assessments:
 morea_type: module
 morea_icon_url: /morea/data_visualization/data-visualization.jpg
-morea_start_date: "2022-01-26"
+morea_start_date: "2022-01-24"
 morea_end_date: "2022-01-31"
 morea_labels: 
 morea_sort_order: 30

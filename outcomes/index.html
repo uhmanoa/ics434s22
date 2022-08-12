@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> ICS 434 Spring 2022 | Learning Outcomes </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/ics434s22/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/ics434s22/css/style.css">
+  <link rel="stylesheet" href="/ics434s22/css/syntax.css">
+  <link rel="shortcut icon" href="/ics434s22/favicon.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/020726ec0d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+
+  
+
+  <!-- Load JQuery, then use it to attach the class 'active' to navbar item currently displayed. -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(window).on('load', function () {
+      $('.nav-item').find('a[href="' + location.pathname + '"]').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+
+<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/ics434s22/index.html"> ICS 434 Spring 2022 </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/modules/">Modules</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/outcomes/">Outcomes</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/readings/">Readings</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/experiences/">Experiences</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/schedule/">Schedule</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- Internal fragment for displaying the breadcrumb bar -->
+<div class="breadcrumb-background" style="padding-top: 1em; padding-bottom: .01em">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        
+        <li class="breadcrumb-item"><a href="/ics434s22/">Home</a></li>
+        <li class="breadcrumb-item active">Learning Outcomes</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="container">
+  <h1>Learning Outcomes <small class="header-small">What you will know</small></h1>
+</div>
+
+<div class="container">
+  <p>This page collects together all of the “outcomes” associated with individual modules. Outcomes identify what students will know and be able to do if they master the material.</p>
+
+<h3 id="course-level-outcomes">Course-level outcomes</h3>
+
+<p>Students mastering the material in this course will achieve the following student learning outcomes for the ICS undergraduate degree program:</p>
+
+<ul>
+  <li>[A] Students can apply knowledge of computing and mathematics appropriate to the discipline.</li>
+  <li>[B] Students can analyze a problem, and identify and define the computing requirements appropriate to its solution.</li>
+  <li>[C] Students can design, implement, and evaluate a computer-based system, process, component, or program to meet desired needs.</li>
+</ul>
+
+
+</div>
+
+<div class="section-background-1">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-course-structure"></a><h3>You understand how to succeed in ICS 434</h3>
+    <p>
+      
+    </p>
+    <ul>
+  <li>You understand the goals, structures, and procedures for learning in ICS 434.</li>
+  <li>Your computer and its software is adequate to support the experiences you will have in this course.</li>
+</ul>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/introduction">ICS 434: Data Science Fundamentals</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+<div class="section-background-2">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-wrangling-intro"></a><h3>You understand and can apply basic mechanisms for data wrangling</h3>
+    <p>
+      
+    </p>
+    <ul>
+  <li>Testing your setup and making sure it’s ready for the rest of the course</li>
+  <li>Getting familiar with Pandas fundamental data structure (<code class="language-plaintext highlighter-rouge">Series</code> and <code class="language-plaintext highlighter-rouge">DataFrame</code>)</li>
+  <li>Develop some familiarity with the logic used in exploratory data analysis</li>
+  <li>Getting familiar with most commonly used attributes and methods used in exploratory data analysis</li>
+  <li>Conditionally subset and filter <code class="language-plaintext highlighter-rouge">DataFrames</code></li>
+  <li>Understand vectorization as it is used in the context of Python/NumPy.</li>
+</ul>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/data-wrangling-1">Data Wrangling - Foundations</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+<div class="section-background-1">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-vis-intro"></a><h3>You understand basic data visualization</h3>
+    <p>
+      
+    </p>
+    <p>Making plots and visualizations is one of the most critical parts of data analysis. It may be a part of the exploratory process. Visualization can, for example, help identify outliers, transform data, or come up with model ideas. This section focuses on fundamental matplotlib plots for visualizing basic data types. The outcomes for this module are:</p>
+
+<ul>
+  <li>Understanding Matplotlib’s basic syntax</li>
+  <li>Understanding fundamental Matplotlib data types including Figure, Axes</li>
+  <li>Understanding layout and grids</li>
+  <li>Getting familiar with distributions, lines, proportions, and point scatter plots</li>
+  <li>Getting familiar random sampling methods in the <code class="language-plaintext highlighter-rouge">random</code> and <code class="language-plaintext highlighter-rouge">np.random</code> modules</li>
+</ul>
+
+<p>Visualization will be a recurring theme, and we will expand on the topics covered in this module over the semester.</p>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/data-visualization">Data Visualization</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+<div class="section-background-2">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-wrangling-2"></a><h3>You understand and can apply additional mechanisms for data wrangling.</h3>
+    <p>
+      
+    </p>
+    <ul>
+  <li>Identifying missing values</li>
+  <li>Missing value imputation</li>
+  <li>Hierarchical indexing (MultiIndexes) on rows and columns</li>
+  <li>Shape transformations such as stacking, index resetting and pivoting</li>
+  <li>Level specific operations</li>
+</ul>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/data-wrangling-2">Data Wrangling - Advanced</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+<div class="section-background-1">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-hypothesis-testing"></a><h3>You understand basic principles of hypothesis testing</h3>
+    <p>
+      
+    </p>
+    <ul>
+  <li>You understand the concept of a statistical test</li>
+  <li>You understand the differnece betwen parametric and non-parametric tests</li>
+  <li>You become familiar with fundamental parametric tests such as t-test, anova, chi-sare test</li>
+  <li>You understand the concept of p-vlaue</li>
+</ul>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/hypothesis-testing">Hypothesis Testing</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+<div class="section-background-2">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-parameter-estimation"></a><h3>You understand basic principles of parameter estimation</h3>
+    <p>
+      
+    </p>
+    <ul>
+  <li>You understand different approaches	to parameter estimation</li>
+  <li>You understand the difference between frequentist and Bayesian approaches.</li>
+  <li>You become familiar	with confidence intervals, maximum likelihood and Bayesian rejection sampling</li>
+</ul>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/parameter-estimation">Parameter Estimation</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+<div class="section-background-1">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-clustering"></a><h3>You understand basic principles of clustering</h3>
+    <p>
+      
+    </p>
+    <ul>
+  <li>You understand the process of clustering and its objectives</li>
+  <li>You understand the differnece betwen parametric and non-parametric method of clustering</li>
+  <li>You become understand and are able to apply approaches such as hierarchical and k-means clustering as well as Gaussian Mixture Models</li>
+  <li>You understand how the Silhouette index is used to evaluate cluster quality</li>
+</ul>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/clustering">Clustering</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+<div class="section-background-2">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-regression"></a><h3>You understand basic principles of regression</h3>
+    <p>
+      
+    </p>
+    <ul>
+  <li>Understand the conceptual and practical concepts and techniques of regression analysis</li>
+  <li>Learn how to apply (build and fit) a linear regression models in practice using <code class="language-plaintext highlighter-rouge">StatsModels</code></li>
+  <li>Interpret model parameters and diagnostic statistics</li>
+  <li>Learn about the theory underlying point estimation, hypothesis and confidence intervals for linear regression</li>
+</ul>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/regression">Regression</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+<div class="section-background-1">
+  <div class="container">
+    <a style="padding-top: 50px; margin-top: -50px; display: table-caption;" name="outcome-ml-intro"></a><h3>You understand basic concepts of machine learning</h3>
+    <p>
+      
+    </p>
+    <ul>
+  <li>Understand fundamental ml models</li>
+  <li>Understand concepts related to training, e.g. fitting, (over/under)-fitting, k-fold Cross-Validation.</li>
+  <li>You are familiar with common loss functions for regression and classification.</li>
+  <li>You are familiar with model evaluation techniques.</li>
+</ul>
+
+    <p>
+    <em>Referencing modules:</em>
+    
+      <a href="../modules/machine-learning">Machine Learning</a>
+    
+    </p>
+    
+
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Maybe find a different way?
+<script src="/ics434s22/js/scrollIfAnchor.js"></script>
+-->
+
+<footer class="footer footer-background" style="padding-top: 1em; padding-bottom: 1em">
+  <div class="container text-center">
+    
+    <p>Mahdi Belcaid · Information and Computer Sciences · University of Hawaii</p>
+
+    
+    <p style="margin: 0">Powered by the <a class="footer-link" href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+      Last update on: <span>2022-08-11 15:45:53 -1000</span></p>
+
+    <p style="margin: 0">
+      
+      11 modules
+      
+      | 9 outcomes
+      
+      
+      | 52 readings
+      
+      
+      | 8 experiences
+      
+      
+    </p>
+  </div>
+</footer>
+
+
+<!-- Load Bootstrap JavaScript components -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<!-- Add anchors to pages. -->
+<script>anchors.add();</script>
+
+
+</body>
+</html>

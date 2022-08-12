@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> ICS 434 Spring 2022 | ICS 434 Syllabus </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/ics434s22/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/ics434s22/css/style.css">
+  <link rel="stylesheet" href="/ics434s22/css/syntax.css">
+  <link rel="shortcut icon" href="/ics434s22/favicon.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/020726ec0d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+
+  
+
+  <!-- Load JQuery, then use it to attach the class 'active' to navbar item currently displayed. -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(window).on('load', function () {
+      $('.nav-item').find('a[href="' + location.pathname + '"]').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+
+<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/ics434s22/index.html"> ICS 434 Spring 2022 </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/modules/">Modules</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/outcomes/">Outcomes</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/readings/">Readings</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/experiences/">Experiences</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/schedule/">Schedule</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Internal fragment for displaying the breadcrumb bar -->
+<div class="breadcrumb-background" style="padding-top: 1em; padding-bottom: .01em">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        
+        <li class="breadcrumb-item"><a href="/ics434s22/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/ics434s22/modules">Modules</a></li>
+        <li class="breadcrumb-item"><a href="/ics434s22/modules/introduction">ICS 434: Data Science Fundamentals</a></li>
+        <li class="breadcrumb-item active">ICS 434 Syllabus</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1 id="ics-434-data-science-fundamentals-syllabus">ICS 434: Data Science Fundamentals Syllabus</h1>
+
+<h2 id="outline">Outline</h2>
+
+<ul>
+  <li>This outline is subject to change.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Week</th>
+      <th>Topics</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Week 1 (1/10, 1/12)</td>
+      <td>Introduction to data science, Python, Jupyter, Conda and DataSpell</td>
+    </tr>
+    <tr>
+      <td>Week 2 (1/17 - <strong>Holiday</strong>, 1/19)</td>
+      <td>Data Wrangling with Pandas - 1. Data structures and indexing schemes</td>
+    </tr>
+    <tr>
+      <td>Week 3 (1/24, 1/26)</td>
+      <td>Data Wrangling with Pandas - 2. Split-apply-combine</td>
+    </tr>
+    <tr>
+      <td>Week 4 (1/31, 2/2)</td>
+      <td>Data Wrangling with Pandas - 3. Hierarchical indexes and joins</td>
+    </tr>
+    <tr>
+      <td>Week 5 (2/7, 2/9)</td>
+      <td>Probability Distributions</td>
+    </tr>
+    <tr>
+      <td>Week 6 (2/14, 2/16)</td>
+      <td>Probability Distributions and KDE</td>
+    </tr>
+    <tr>
+      <td>Week 7 (2/21 - <strong>Holiday</strong>, 2/23)</td>
+      <td>Parameter estimation (ML, bootstrap, and approximate Bayes) and simulation</td>
+    </tr>
+    <tr>
+      <td>Week 8 (2/28, 3/2)</td>
+      <td>Parametric and non-parametric hypothesis testing - 1</td>
+    </tr>
+    <tr>
+      <td>Week 9 (3/7, 3/9)</td>
+      <td>Parametric and non-parametric hypothesis testing - 2</td>
+    </tr>
+    <tr>
+      <td>Week 10 (3/14, 3/16)</td>
+      <td><strong>SPRING RECESS</strong></td>
+    </tr>
+    <tr>
+      <td>Week 11 (3/21, 3/23)</td>
+      <td>Correlation</td>
+    </tr>
+    <tr>
+      <td>Week 12 (3/28, 3/30)</td>
+      <td>Linear and non-linear regression - 1</td>
+    </tr>
+    <tr>
+      <td>Week 13 (4/4, 4/6)</td>
+      <td>Linear and non-linear regression - 2</td>
+    </tr>
+    <tr>
+      <td>Week 14 (4/11, 4/13)</td>
+      <td>Time series data Analysis</td>
+    </tr>
+    <tr>
+      <td>Week 15 (4/18, 4/20)</td>
+      <td>Clustering (k-means and GMMs)</td>
+    </tr>
+    <tr>
+      <td>Week 16 (4/25, 4/27)</td>
+      <td>Popular machine learning models - 1</td>
+    </tr>
+    <tr>
+      <td>Week 17 (5/02, 5/04)</td>
+      <td>Other Machine learning Models - 2 and final review</td>
+    </tr>
+    <tr>
+      <td>Week 18 (5/09, 5/11)</td>
+      <td><strong>EXAM WEEK</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="description">Description</h2>
+
+<p>As data becomes increasingly cheaper to produce, data-savvy personnel who can help derive scientific, economic, or social value from it are in short supply. In response, data science has emerged as a blending of skills and domain knowledge that can be used for successfully and efficiently describing, predicting, or prescribing systems and their behaviors. As Glassdoor’s Best Job in America for 2016, data science continues to rank among the fields with the most hiring opportunities, including for remote positions.</p>
+
+<p>This course will introduce students to this rapidly growing field of data science. It will teach the elementary concepts and tools that play a central role in the daily work of a data scientist. Students will be exposed to critical statistical and probabilistic concepts that underpin data science, concurrently with the tools to synthesize end-to-end data products.</p>
+
+<h2 id="objectives-and-outcomes">Objectives and Outcomes</h2>
+
+<h4 id="course-level-objectives">Course level objectives</h4>
+
+<p>The learning objectives of this course are:</p>
+<ul>
+  <li>Python scientific stack for data munging and processing</li>
+  <li>Statistical and probability concepts and methodology underlying data science</li>
+  <li>Popular techniques for modeling data</li>
+  <li>Common Python data visualization libraries</li>
+</ul>
+
+<p>The topics we will cover are:</p>
+<ul>
+  <li>Data munging</li>
+  <li>Common data visualizations</li>
+  <li>Probabilistic modeling and empirical Bayesian data analysis</li>
+  <li>Model-based time series modeling</li>
+  <li>Introduction to machine learning</li>
+</ul>
+
+<h4 id="course-level-outcomes">Course level outcomes</h4>
+
+<ul>
+  <li>Familiarity with Jupyter Notebooks and/or DataSpell</li>
+  <li>Competent with Python for data science</li>
+  <li>Advanced skills in Pandas and data processing</li>
+  <li>Develop competency for visualizing heterogeneous data</li>
+  <li>Understand and apply the principles of simulations</li>
+  <li>Understand and apply fundamental probability distributions</li>
+  <li>Understand and apply fundamental parametric and non-parametric hypothesis testing methods</li>
+  <li>Understand and apply methods for parameter estimation</li>
+  <li>Competence and wrangling of time series data</li>
+  <li>Understand and apply simple concepts for time series data analysis</li>
+  <li>Familiarity with basic machine learning models</li>
+  <li>Understand the training, validation and testing phases of machine learning project</li>
+</ul>
+
+<h2 id="textbook">Textbook</h2>
+
+<p>There is no required textbook for this class. All material is avilable freely online.</p>
+
+<p>The material presented in classes is inspired from the following references:</p>
+<ul>
+  <li>McKinney, Wes. Python for data analysis, 2nd Edition: Data wrangling with Pandas, NumPy, and IPython. “ O’Reilly Media, Inc.”, 2017 (recommended).</li>
+  <li>Unpingco, José. Python for probability, statistics, and machine learning. Springer International Publishing, 2016.</li>
+</ul>
+
+<h2 id="grading">Grading</h2>
+
+<ul>
+  <li>
+    <p>Assignments (50%): There will be four assignments. These will be submitted via GitHub as Jupyter notebooks (http://jupyter.org/) before 11:59 PM (HST) on the due day. Late work will be accepted with a 25% grade penalty for &lt;24 hours of and a 50% grade penalty for &lt;48 hours of lateness. Points will be deducted when the specifications provided in the assignment are not met.</p>
+  </li>
+  <li>
+    <p>Course experiences (10%): Students will be provided with weekly experiences that will support the weekly objectives and solidify their understanding of the material. An online honor form must be submitted for each experience to confirm that the assigned experiences have been completed within the given timeline. In addition, if applicable, a Jupyter notebook showing your work must be submitted. While not all of the experiences will be manually graded, a subset will be evaluated at the end of the semester.</p>
+  </li>
+  <li>
+    <p>Attendance and participation (10%): Requires missing no more than four sessions, unless a valid justification is presented (Illness, religious holidays, and personal emergencies). Students attending the class are also required to submit an online honor form confirming that they have attended the session. A unique code will be provided during each session. Students are also required to participate on the course Slack channel to answer questions that may arise and share about the course material and relevant topics.</p>
+  </li>
+  <li>
+    <p>Final Exam (30%): There will be one closed-book final exam consisting of MCQs, and analytical questions. The exam will be held on the last day of instruction and will count for 25% of the final grade.</p>
+  </li>
+  <li>
+    <p>By default, grading will use the standard cutoffs of 90% (A), 80% (B), 70% (C), 60% (D), but the instructor may revise these percentages downward.</p>
+  </li>
+</ul>
+
+<h2 id="academic-dishonesty">Academic Dishonesty</h2>
+
+<p>All occurrences of academic dishonesty will result in a grade of 0 for the assignment or exam, and in a memo in your ICS department file describing the incident. Should there be more than one memo of this type in your file, the incident will be referred to the Dean of Students. Disciplinary sanctions range from a warning to expulsion from the university.</p>
+
+</div>
+
+
+
+
+<!-- Maybe find a different way?
+<script src="/ics434s22/js/scrollIfAnchor.js"></script>
+-->
+
+<footer class="footer footer-background" style="padding-top: 1em; padding-bottom: 1em">
+  <div class="container text-center">
+    
+    <p>Mahdi Belcaid · Information and Computer Sciences · University of Hawaii</p>
+
+    
+    <p style="margin: 0">Powered by the <a class="footer-link" href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+      Last update on: <span>2022-08-11 15:45:53 -1000</span></p>
+
+    <p style="margin: 0">
+      
+      11 modules
+      
+      | 9 outcomes
+      
+      
+      | 52 readings
+      
+      
+      | 8 experiences
+      
+      
+    </p>
+  </div>
+</footer>
+
+
+<!-- Load Bootstrap JavaScript components -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<!-- Add anchors to pages. -->
+<script>anchors.add();</script>
+
+
+</body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> ICS 434 Spring 2022 | Data Wrangling - Foundations </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/ics434s22/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/ics434s22/css/style.css">
+  <link rel="stylesheet" href="/ics434s22/css/syntax.css">
+  <link rel="shortcut icon" href="/ics434s22/favicon.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/020726ec0d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+
+  
+
+  <!-- Load JQuery, then use it to attach the class 'active' to navbar item currently displayed. -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(window).on('load', function () {
+      $('.nav-item').find('a[href="' + location.pathname + '"]').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+
+<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/ics434s22/index.html"> ICS 434 Spring 2022 </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/modules/">Modules</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/outcomes/">Outcomes</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/readings/">Readings</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/experiences/">Experiences</a></li>
+        
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/ics434s22/schedule/">Schedule</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- Internal fragment for displaying the breadcrumb bar -->
+<div class="breadcrumb-background" style="padding-top: 1em; padding-bottom: .01em">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        
+        <li class="breadcrumb-item"><a href="/ics434s22/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/ics434s22/modules">Modules</a></li>
+        <li class="breadcrumb-item active">Data Wrangling - Foundations</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+
+<div class="container">
+  <h1><small class="header-small">Module: </small> Data Wrangling - Foundations </h1>
+  <p><p>Data wrangling is the process of transforming and mapping data from a “raw” state into a state more useful for analysis.</p>
+</p>
+  
+    <p>Dates: Mon, Jan 17 - Mon, Jan 24</p>
+  
+</div>
+
+
+
+
+
+<div class="section-background-1">
+  <div class="container">
+    <h2>Learning Outcomes</h2>
+
+    
+      
+      <h3>You understand and can apply basic mechanisms for data wrangling</h3>
+      <p>
+        
+      </p>
+      <ul>
+  <li>Testing your setup and making sure it’s ready for the rest of the course</li>
+  <li>Getting familiar with Pandas fundamental data structure (<code class="language-plaintext highlighter-rouge">Series</code> and <code class="language-plaintext highlighter-rouge">DataFrame</code>)</li>
+  <li>Develop some familiarity with the logic used in exploratory data analysis</li>
+  <li>Getting familiar with most commonly used attributes and methods used in exploratory data analysis</li>
+  <li>Conditionally subset and filter <code class="language-plaintext highlighter-rouge">DataFrames</code></li>
+  <li>Understand vectorization as it is used in the context of Python/NumPy.</li>
+</ul>
+
+    
+
+  </div>
+</div>
+
+
+
+
+
+<div class="section-background-2">
+  <div class="container">
+  <h2>Readings</h2>
+
+    <div class="row">
+      
+        
+        <!-- Internal fragment for displaying reading, experience, prereq cards. Prereqs have icons. -->
+<div class="col-md-6 col-lg-4" style="padding-bottom: 20px">
+  <div class="card h-100">
+    
+    <div class="card-body">
+      <h4 class="card-title">Pydata book: chapter 2</h4>
+      <p>Overview of Pandas for data wrangling</p>
+
+
+    
+    </div>
+
+    <div style="border-top-color: transparent" class="card-footer bg-body">
+      
+    </div>
+    <a href="/ics434s22/morea/data_wrangling_foundations/reading-chapter-2.html" class="stretched-link"></a>
+  </div>
+</div>
+      
+        
+        <!-- Internal fragment for displaying reading, experience, prereq cards. Prereqs have icons. -->
+<div class="col-md-6 col-lg-4" style="padding-bottom: 20px">
+  <div class="card h-100">
+    
+    <div class="card-body">
+      <h4 class="card-title">Introduction to Pandas</h4>
+      <p>Overview of the series and dataframe classes</p>
+
+
+    
+    </div>
+
+    <div style="border-top-color: transparent" class="card-footer bg-body">
+      
+      <span class="badge bg-primary">Jupyter Notebook</span>
+      
+    </div>
+    <a href="/ics434s22/morea/data_wrangling_foundations/resources/3_intro_to_pandas.short.ipynb" class="stretched-link"></a>
+  </div>
+</div>
+      
+        
+        <!-- Internal fragment for displaying reading, experience, prereq cards. Prereqs have icons. -->
+<div class="col-md-6 col-lg-4" style="padding-bottom: 20px">
+  <div class="card h-100">
+    
+    <div class="card-body">
+      <h4 class="card-title">Exploratory data analysis</h4>
+      <p>Useful functions to explore a data set</p>
+
+
+    
+    </div>
+
+    <div style="border-top-color: transparent" class="card-footer bg-body">
+      
+      <span class="badge bg-primary">Jupyter Notebook</span>
+      
+    </div>
+    <a href="/ics434s22/morea/data_wrangling_foundations/resources/4_exploratory_data_analysis.ipynb" class="stretched-link"></a>
+  </div>
+</div>
+      
+        
+        <!-- Internal fragment for displaying reading, experience, prereq cards. Prereqs have icons. -->
+<div class="col-md-6 col-lg-4" style="padding-bottom: 20px">
+  <div class="card h-100">
+    
+    <div class="card-body">
+      <h4 class="card-title">Arithmetic operations</h4>
+      <p>Also data alignment and conditional filtering</p>
+
+
+    
+    </div>
+
+    <div style="border-top-color: transparent" class="card-footer bg-body">
+      
+      <span class="badge bg-primary">Jupyter Notebook</span>
+      
+    </div>
+    <a href="/ics434s22/morea/data_wrangling_foundations/resources/5_Exploring_Data.short.ipynb" class="stretched-link"></a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div class="section-background-1">
+  <div class="container">
+  <h2>Experiential Learning</h2>
+    <div class="row">
+      
+        
+        <!-- Internal fragment for displaying reading, experience, prereq cards. Prereqs have icons. -->
+<div class="col-md-6 col-lg-4" style="padding-bottom: 20px">
+  <div class="card h-100">
+    
+    <div class="card-body">
+      <h4 class="card-title">Graph data with Pandas</h4>
+      <p>Reproducing Figure 2-3 form the pydata book</p>
+
+
+    
+    </div>
+
+    <div style="border-top-color: transparent" class="card-footer bg-body">
+      
+      <span class="badge bg-primary">24 Jan 12:00 AM</span>
+      
+    </div>
+    <a href="/ics434s22/morea/data_wrangling_foundations/experience-read-explore-data.html" class="stretched-link"></a>
+  </div>
+</div>
+      
+        
+        <!-- Internal fragment for displaying reading, experience, prereq cards. Prereqs have icons. -->
+<div class="col-md-6 col-lg-4" style="padding-bottom: 20px">
+  <div class="card h-100">
+    
+    <div class="card-body">
+      <h4 class="card-title">Graph data with Pandas</h4>
+      <p>Assess your understanding of the exploratory data analysis section</p>
+
+
+    
+    </div>
+
+    <div style="border-top-color: transparent" class="card-footer bg-body">
+      
+      <span class="badge bg-primary">31 Jan 12:00 AM</span>
+      
+    </div>
+    <a href="/ics434s22/morea/data_wrangling_foundations/experience-exploratory_data_analysis.html" class="stretched-link"></a>
+  </div>
+</div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Maybe find a different way?
+<script src="/ics434s22/js/scrollIfAnchor.js"></script>
+-->
+
+<footer class="footer footer-background" style="padding-top: 1em; padding-bottom: 1em">
+  <div class="container text-center">
+    
+    <p>Mahdi Belcaid · Information and Computer Sciences · University of Hawaii</p>
+
+    
+    <p style="margin: 0">Powered by the <a class="footer-link" href="http://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+      Last update on: <span>2022-08-11 15:45:53 -1000</span></p>
+
+    <p style="margin: 0">
+      
+      11 modules
+      
+      | 9 outcomes
+      
+      
+      | 52 readings
+      
+      
+      | 8 experiences
+      
+      
+    </p>
+  </div>
+</footer>
+
+
+<!-- Load Bootstrap JavaScript components -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<!-- Add anchors to pages. -->
+<script>anchors.add();</script>
+
+
+</body>
+</html>

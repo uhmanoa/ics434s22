@@ -1,0 +1,21 @@
+moreaEventData = [
+  {title: "Time Series Data Analysis", url: "/ics434s22/modules/time-series", start: "2022-04-11", end: "2022-04-25"},
+  {title: "Python tutorial", url: "/ics434s22/morea/introduction/experience-optional-python-tutorial.html", start: "2022-01-17", end: "2022-01-17"},
+  {title: "ICS 434: Data Science Fundamentals", url: "/ics434s22/modules/introduction", start: "2022-01-10", end: "2022-01-17"},
+  {title: "Development environment", url: "/ics434s22/morea/introduction/experience-install-python.html", start: "2022-01-17", end: "2022-01-17"},
+  {title: "Introduce yourself", url: "/ics434s22/morea/introduction/experience-introduce-yourself.html", start: "2022-01-17", end: "2022-01-17"},
+  {title: "Regression", url: "/ics434s22/modules/regression", start: "2022-04-04", end: "2022-04-11"},
+  {title: "Data Wrangling - Foundations", url: "/ics434s22/modules/data-wrangling-1", start: "2022-01-17", end: "2022-01-24"},
+  {title: "Graph data with Pandas", url: "/ics434s22/morea/data_wrangling_foundations/experience-read-explore-data.html", start: "2022-01-24", end: "2022-01-24"},
+  {title: "Graph data with Pandas", url: "/ics434s22/morea/data_wrangling_foundations/experience-exploratory_data_analysis.html", start: "2022-01-31", end: "2022-01-31"},
+  {title: "Clustering", url: "/ics434s22/modules/clustering", start: "2022-03-21", end: "2022-04-04"},
+  {title: "Probability Models", url: "/ics434s22/modules/probability-models", start: "2022-02-07", end: "2022-02-21"},
+  {title: "Probability Distributions", url: "/ics434s22/morea/probability_models/experience-prob-distribution.html", start: "2022-02-21", end: "2022-02-21"},
+  {title: "Simulating a Non-Parametric Test Using Bootstrapping", url: "/ics434s22/morea/hypothesis_testing/experience-hypothesis-testing.html", start: "2022-03-16", end: "2022-03-16"},
+  {title: "Hypothesis Testing", url: "/ics434s22/modules/hypothesis-testing", start: "2022-02-21", end: "2022-02-28"},
+  {title: "Reproducing a plot", url: "/ics434s22/morea/data_visualization/experience-plot-notebook.html", start: "2022-02-09", end: "2022-02-9"},
+  {title: "Data Visualization", url: "/ics434s22/modules/data-visualization", start: "2022-01-24", end: "2022-01-31"},
+  {title: "Machine Learning", url: "/ics434s22/modules/machine-learning", start: "2022-04-25", end: "2022-05-04"},
+  {title: "Parameter Estimation", url: "/ics434s22/modules/parameter-estimation", start: "2022-02-28", end: "2022-03-21"},
+  {title: "Data Wrangling - Advanced", url: "/ics434s22/modules/data-wrangling-2", start: "2022-01-31", end: "2022-02-07"}
+]
